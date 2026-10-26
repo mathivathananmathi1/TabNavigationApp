@@ -1,0 +1,17 @@
+﻿<Page x:Class="TabNavigationApp.SecondPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="SecondPage">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <TextBlock Text="Second Page"
+                       FontSize="25"
+                       Margin="10"/>
+            <Button Content="Back to Home"
+                    Width="140"
+                    Height="40"
+                    Click="Back_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
